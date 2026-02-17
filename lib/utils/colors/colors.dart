@@ -8,4 +8,7 @@ class GlobalColors {
   static Color blackColor = Color.fromARGB(255, 0, 0, 0);
 
   static Color coralColor = Color(0xFFFF7F50);
+  
+  static Color bluegreenColor = Color(0xFF2B5E5C);
+  
 }

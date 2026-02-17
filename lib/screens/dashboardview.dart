@@ -53,10 +53,9 @@ class _DashboardViewState extends State<DashboardView> {
                       Text(
                         'Account Officer',
                         style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 30,
-                          fontWeight: FontWeight.bold
-                        ),
+                            color: Colors.white,
+                            fontSize: 30,
+                            fontWeight: FontWeight.bold),
                       ),
                       Text(
                         'Profile: xxxxxx',
@@ -242,7 +241,7 @@ class _DashboardViewState extends State<DashboardView> {
                         ),
                       ),
                       SizedBox(height: 10),
-                      // Vertical list of nav items (Home / My Tickets / Tasks / Account)
+
                       Column(
                         children: [
                           SizedBox(height: 8),

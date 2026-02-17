@@ -1,4 +1,4 @@
-import 'package:dashboard_ui/screens/dashboardview.dart';
+import 'package:dashboard_ui/screens/loginview.dart';
 import 'package:dashboard_ui/utils/colors/colors.dart';
 import 'package:flutter/material.dart';
 
@@ -17,8 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: GlobalColors.solidColor),
         useMaterial3: true,
       ),
-      home: const DashboardView(),
+      home: const LoginView(),
     );
   }
 }
-
